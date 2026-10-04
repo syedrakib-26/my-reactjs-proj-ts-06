@@ -1,0 +1,13 @@
+var R=require("../../../chunks/ssr/[turbopack]_runtime.js")("server/app/workout/[id]/page.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0u23_ms._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_0nkkbfv._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__02mpabv._.js")
+R.c("server/chunks/ssr/[root-of-the-server]__0gz0l81._.js")
+R.c("server/chunks/ssr/_17s98nx._.js")
+R.c("server/chunks/ssr/_0qptkf4._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_0p8s4lh._.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_unauthorized_0l_sp0x.js")
+R.c("server/chunks/ssr/node_modules_next_dist_client_components_builtin_global-error_0q-w892.js")
+R.c("server/chunks/ssr/_next-internal_server_app_workout_[id]_page_actions_0lqcp3y.js")
+R.m(86606)
+module.exports=R.m(86606).exports

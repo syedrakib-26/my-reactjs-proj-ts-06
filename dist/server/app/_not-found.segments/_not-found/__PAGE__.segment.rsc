@@ -1,0 +1,27 @@
+1:"$Sreact.fragment"
+2:I[22016,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/0pruxnv89yg2c.js"],""]
+3:I[97367,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/0pruxnv89yg2c.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[97367,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/0pruxnv89yg2c.js"],"ViewportBoundary"]
+9:I[97367,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/0pruxnv89yg2c.js"],"MetadataBoundary"]
+a:I[27201,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/0pruxnv89yg2c.js"],"IconMark"]
+c:I[39756,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/0pruxnv89yg2c.js"],"default"]
+d:I[37457,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/0pruxnv89yg2c.js"],"default"]
+10:I[22004,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/0pruxnv89yg2c.js"],"PlanProvider"]
+11:I[45678,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/0pruxnv89yg2c.js"],"default"]
+12:I[5500,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/0pruxnv89yg2c.js"],"Image"]
+13:I[5766,["/_next/static/chunks/3fntmmi971322.js","/_next/static/chunks/0pruxnv89yg2c.js"],"Toaster"]
+:HL["/_next/static/chunks/2-_h18xwt4m2n.css","style"]
+7:X
+f:X
+f:C
+0:{"buildId":"_NOrlOzctfG2HEk4Eyrug","data":[{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"flex flex-col items-center justify-center min-h-[60vh] text-center px-4","children":[["$","h1",null,{"className":"text-7xl font-extrabold text-[#ccff00]","children":"404"}],["$","h2",null,{"className":"text-2xl font-bold text-white mt-4","children":"Page Not Found"}],["$","p",null,{"className":"text-gray-400 mt-2","children":"The workout or page you are looking for does not exist."}],["$","$L2",null,{"href":"/","className":"mt-6 bg-[#2a2a2a] text-white px-6 py-2 rounded hover:bg-[#333] transition","children":"Back to Home"}]]}],null,["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"FitLog — Track & Plan"}],["$","meta","1",{"name":"description","content":"Workout tracking and planning application"}],["$","link","2",{"rel":"icon","href":"/favicon.ico?favicon.2vob68tjqpejf.ico","sizes":"256x256","type":"image/x-icon"}],["$","$La","3",{}]]}]}]}],null]}],"isPartial":"$@b","staleTime":"$7","varyParams":null},{"rsc":["$","$1","c",{"children":[null,["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}]}]]}],"isPartial":"$@e","staleTime":"$7","varyParams":"$f"},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2-_h18xwt4m2n.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/3fntmmi971322.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0pruxnv89yg2c.js","async":true}]],["$","html",null,{"lang":"en","children":["$","body",null,{"className":"bg-[#0e0e0e] text-gray-100 min-h-screen flex flex-col","children":["$","$L10",null,{"children":[["$","$L11",null,{}],["$","main",null,{"className":"flex-1","children":["$","$Lc",null,{"parallelRouterKey":"children","template":["$","$Ld",null,{}],"notFound":[["$","div",null,{"className":"flex flex-col items-center justify-center min-h-[60vh] text-center px-4","children":[["$","h1",null,{"className":"text-7xl font-extrabold text-[#ccff00]","children":"404"}],["$","h2",null,{"className":"text-2xl font-bold text-white mt-4","children":"Page Not Found"}],["$","p",null,{"className":"text-gray-400 mt-2","children":"The workout or page you are looking for does not exist."}],["$","$L2",null,{"href":"/","className":"mt-6 bg-[#2a2a2a] text-white px-6 py-2 rounded hover:bg-[#333] transition","children":"Back to Home"}]]}],[]]}]}],["$","footer",null,{"className":"border-t border-[#2a2a2a] bg-[#121212] py-6 px-6 mt-16","children":["$","div",null,{"className":"max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center text-sm text-gray-500","children":[["$","div",null,{"className":"flex items-center gap-2","children":[["$","div",null,{"className":"flex h-5 w-5 items-center justify-center text-[#b6ff00]","children":["$","$L12",null,{"src":"/logo.png","alt":"logo","width":30,"height":30}]}],["$","span",null,{"className":"text-xs font-bold tracking-wide","children":" FITLOG "}]]}],["$","p",null,{"className":"mt-2 sm:mt-0","children":"© 2026 FitLog-Workout Library. Train hard, log honest."}]]}]}],["$","$L13",null,{"position":"top-right","toastOptions":{"style":{"background":"#1a1a1a","color":"#fff","border":"1px solid #2a2a2a"},"success":{"iconTheme":{"primary":"#ccff00","secondary":"#0a0a0a"}}}}]]}]}]}]]}],"isPartial":"$@14","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@15","rootVaryParams":null,"needsRuntimeRequest":"$@16"}
+5:null
+7:300
+16:true
+7:C
+15:0
+b:"$undefined"
+e:"$undefined"
+14:"$undefined"
+6:"$undefined"
