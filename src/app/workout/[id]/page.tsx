@@ -41,6 +41,7 @@ export default function WorkoutDetails({ params }: { params: Params }) {
   return (
     <div className="max-w-4xl mx-auto px-6 py-12">
       <div className="h-72 sm:h-96 w-full rounded-xl overflow-hidden mb-8 border border-[#2a2a2a]">
+        
         <img src={workout.image} alt={workout.name} className="w-full h-full object-cover" />
       </div>
 
