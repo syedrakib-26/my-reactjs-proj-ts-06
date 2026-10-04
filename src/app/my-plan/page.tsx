@@ -3,13 +3,14 @@
 import { useState } from "react";
 import Link from "next/link";
 import { usePlan } from "@/context/PlanContext";
+import { PlanWorkout } from "@/types";
 
 export default function MyPlanPage() {
   const [activeTab, setActiveTab] = useState<"plan" | "saved">("plan");
   const [sortBy, setSortBy] = useState("duration");
   const { plan, saved, metrics, removeFromPlan, removeFromSaved, markAsDone } = usePlan();
 
-  const currentList = activeTab === "plan" ? plan : saved;
+  const currentList = activeTab === "plan" ? plan : saved.map((item) => ({ ...item, isDone: false })) as PlanWorkout[];
 
   const sortedList = [...currentList].sort((a, b) => {
     if (sortBy === "duration") return a.duration - b.duration;
@@ -36,23 +37,22 @@ export default function MyPlanPage() {
         </div>
       </div>
 
-      {/* 2. Controls: Tabs & Sort */}
+    
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6 border-b border-[#2a2a2a] pb-4">
         <div className="flex gap-4">
           <button
             onClick={() => setActiveTab("plan")}
             className={`pb-2 font-bold text-sm tracking-wide ${
               activeTab === "plan" ? "text-[#ccff00] border-b-2 border-[#ccff00]" : "text-gray-400"
-            }`}
-          >
+            }`} >
+
             Todays Plan ({plan.length})
           </button>
           <button
             onClick={() => setActiveTab("saved")}
             className={`pb-2 font-bold text-sm tracking-wide ${
               activeTab === "saved" ? "text-[#ccff00] border-b-2 border-[#ccff00]" : "text-gray-400"
-            }`}
-          >
+            }`} >
             Saved for Later ({saved.length})
           </button>
         </div>
@@ -71,7 +71,6 @@ export default function MyPlanPage() {
         </div>
       </div>
 
-      {/* 3. Empty State */}
       {sortedList.length === 0 ? (
         <div className="text-center py-20 bg-[#161616] border border-dashed border-[#2a2a2a] rounded-lg">
           <h3 className="text-lg font-bold text-white mb-2">NOTHING HERE YET</h3>
@@ -81,7 +80,7 @@ export default function MyPlanPage() {
           </Link>
         </div>
       ) : (
-        /* 4. List Items */
+
         <div className="space-y-4">
           {sortedList.map((item) => {
             const isPlanItem = "isDone" in item;
@@ -99,8 +98,9 @@ export default function MyPlanPage() {
                       <span className="text-xs bg-green-900/50 text-green-400 px-2 py-0.5 rounded border border-green-700">
                         Done
                       </span>
-                    )}
-                  </h4>
+                    ) } </h4>
+
+
                   <p className="text-xs text-gray-400 mt-1">
                     {item.duration} mins • {item.caloriesBurned} kcal • {item.equipment}
                   </p>
