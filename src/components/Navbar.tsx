@@ -26,14 +26,13 @@ export default function Navbar() {
       <div className="flex gap-4 items-center ">
         <Link
           href="/" 
-          className={pathname === "/" ? "text-[#ccff00] rounded-full bg-[#1c2c0d] px-6 py-3 text-sm font-semibold" : "text-gray-400 hover:text-white"}
+          className={pathname === "/" ? "text-[#ccff00] rounded-full px-6 py-3 text-sm font-semibold" : "text-gray-400 hover:text-white"}
         >
           Workouts
         </Link>
         <Link
           href="/my-plan"
           className={pathname === "/my-plan" ? "text-[#ccff00] rounded-full bg-[#1c2c0d] px-6 py-3 text-sm font-semibold" : "text-gray-400 hover:text-white"}> My Plan
-          
         </Link>
       </div>
 

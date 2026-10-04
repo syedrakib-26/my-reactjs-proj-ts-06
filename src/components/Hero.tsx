@@ -20,13 +20,13 @@ export default function Hero() {
           BROWSE WORKOUTS
         </a>
       </div>
-      <div className="w-full h-72 sm:h-96 bg-[#1a1a1a] rounded-xl flex items-center justify-center border border-[#0b0b0b]">
+      <div className="w-full h-72 sm:h-96 flex items-center justify-center">
                   <div className=" md: w-[45%]">
           
-            <Image src="/banner.png" alt="Workout exercise" width={600} height={600} className='h-auto object-contain'/>
+            <Image src="/banner.png" alt="Workout exercise" width={400} height={300} className='h-auto object-contain'/>
 
           </div>
-        {/* <span className="text-gray-500 font-medium">Hero Image / Graphic</span> */}
+       
       </div>
     </section>
   );

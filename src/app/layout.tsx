@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
-      <body className="bg-[#0e0e0e] text-gray-100 min-h-screen flex flex-col">
+      <body className="bg-[#0e0e0e] text-gray-100 min-h-screen flex flex-col" >
         <PlanProvider>
           <Navbar />
           <main className="flex-1">{children}</main>
